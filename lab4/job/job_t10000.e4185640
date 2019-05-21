@@ -1,0 +1,5 @@
+/var/spool/torque/mom_priv/jobs/4185640.owens-batch.ten.osc.edu.SC: line 28: 140374 Bus error               ./lab4_arbitrary < PC_data_t10000
+
+real	32m51.889s
+user	23m2.756s
+sys	9m48.373s

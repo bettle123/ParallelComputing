@@ -1,0 +1,52 @@
+/opt/osc-cuda/bin/nvcc
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2016 NVIDIA Corporation
+Built on Sun_Sep__4_22:14:01_CDT_2016
+Cuda compilation tools, release 8.0, V8.0.44
+Sat Nov 17 14:34:11 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 396.37                 Driver Version: 396.37                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P100-PCIE...  On   | 00000000:04:00.0 Off |                    0 |
+| N/A   29C    P0    29W / 250W |     11MiB / 16280MiB |      0%   E. Process |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+Initialize the queue successfully.
+Main(): Start producer() and consumer() functions.
+Q:0	A	100	100
+Q:1	B	202	202
+Q:2	C	304	304
+Q:3	D	408	408
+Q:4	A	116	116
+Q:0	B	232	232
+Q:1	C	364	364
+Q:2	D	500	500
+Q:3	A	300	300
+Q:4	B	456	456
+Q:0	C	812	812
+Q:1	D	1400	1400
+The total user time = 0.160000 seconds
+
+-----------------------
+Resources requested:
+nodes=1:gpus=1
+mem=4gb
+-----------------------
+Resources used:
+cput=00:00:01
+walltime=00:00:03
+mem=0.000GB
+vmem=0.000GB
+-----------------------
+Resource units charged (estimate):
+0.000 RUs
+-----------------------

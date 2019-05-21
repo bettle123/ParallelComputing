@@ -1,0 +1,8 @@
+1202_main.c(48): warning #810: conversion from "void *" to "int" may lose significant bits
+          exit(NULL);
+               ^
+
+
+real	1m36.351s
+user	0m0.013s
+sys	0m0.053s

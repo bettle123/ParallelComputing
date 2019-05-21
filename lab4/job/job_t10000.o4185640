@@ -1,0 +1,37 @@
+/opt/osc-cuda/bin/nvcc
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2016 NVIDIA Corporation
+Built on Sun_Sep__4_22:14:01_CDT_2016
+Cuda compilation tools, release 8.0, V8.0.44
+Wed Nov 21 16:07:19 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 396.37                 Driver Version: 396.37                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P100-PCIE...  On   | 00000000:04:00.0 Off |                    0 |
+| N/A   27C    P0    27W / 250W |     10MiB / 16280MiB |      0%   E. Process |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+
+-----------------------
+Resources requested:
+nodes=1:gpus=1
+mem=24gb
+-----------------------
+Resources used:
+cput=00:32:52
+walltime=00:32:55
+mem=0.009GB
+vmem=17.820GB
+-----------------------
+Resource units charged (estimate):
+0.329 RUs
+-----------------------

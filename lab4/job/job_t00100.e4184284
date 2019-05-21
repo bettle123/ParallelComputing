@@ -1,0 +1,10 @@
+1116_main.cu(115): warning: variable "tmp_t_key" was declared but never referenced
+
+1116_main.cu(225): warning: variable "decoder" is used before its value is set
+
+1116_main.cu(225): warning: variable "decoder" is used before its value is set
+
+
+real	3m46.114s
+user	2m38.163s
+sys	1m7.856s

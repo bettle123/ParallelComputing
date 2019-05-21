@@ -1,0 +1,111 @@
+/opt/osc-cuda/bin/nvcc
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2016 NVIDIA Corporation
+Built on Sun_Sep__4_22:14:01_CDT_2016
+Cuda compilation tools, release 8.0, V8.0.44
+Sun Dec  2 21:51:29 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 396.37                 Driver Version: 396.37                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P100-PCIE...  On   | 00000000:04:00.0 Off |                    0 |
+| N/A   29C    P0    28W / 250W |     10MiB / 16280MiB |      0%   E. Process |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+In thread 0, cmd = A, key = 426, alpha = 429, result = 425
+In thread 1, cmd = C, key = 417, alpha = 478, result = 416
+In thread 2, cmd = D, key = 504, alpha = 7, result = 503
+In thread 2, cmd = D, key = 508, alpha = 3, result = 507
+In thread 0, cmd = C, key = 288, alpha = 351, result = 287
+In thread 1, cmd = C, key = 511, alpha = 384, result = 510
+In thread 2, cmd = C, key = 850, alpha = 813, result = 849
+In thread 3, cmd = C, key = 819, alpha = 844, result = 818
+In thread 0, cmd = C, key = 273, alpha = 366, result = 272
+In thread 1, cmd = C, key = 528, alpha = 623, result = 527
+In thread 2, cmd = D, key = 842, alpha = 693, result = 841
+In thread 1, cmd = A, key = 358, alpha = 353, result = 357
+In thread 0, cmd = A, key = 118, alpha = 113, result = 117
+In thread 3, cmd = C, key = 522, alpha = 629, result = 521
+In thread 2, cmd = B, key = 105, alpha = 118, result = 104
+In thread 0, cmd = B, key = 372, alpha = 363, result = 371
+In thread 1, cmd = A, key = 657, alpha = 662, result = 656
+In thread 3, cmd = D, key = 756, alpha = 779, result = 755
+In thread 2, cmd = B, key = 648, alpha = 663, result = 647
+In thread 3, cmd = B, key = 662, alpha = 649, result = 661
+In thread 1, cmd = B, key = 617, alpha = 630, result = 616
+In thread 3, cmd = C, key = 914, alpha = 1005, result = 121
+In thread 2, cmd = D, key = 906, alpha = 629, result = 905
+In thread 2, cmd = A, key = 825, alpha = 830, result = 824
+In thread 0, cmd = C, key = 779, alpha = 884, result = 778
+In thread 3, cmd = C, key = 209, alpha = 174, result = 208
+In thread 1, cmd = D, key = 419, alpha = 92, result = 418
+In thread 2, cmd = B, key = 628, alpha = 619, result = 627
+In thread 3, cmd = D, key = 478, alpha = 33, result = 477
+In thread 0, cmd = A, key = 937, alpha = 942, result = 936
+In thread 3, cmd = A, key = 3, alpha = 4, result = 2
+In thread 2, cmd = A, key = 799, alpha = 792, result = 798
+In thread 0, cmd = B, key = 558, alpha = 561, result = 557
+In thread 3, cmd = A, key = 938, alpha = 941, result = 937
+In thread 1, cmd = D, key = 184, alpha = 327, result = 183
+In thread 1, cmd = A, key = 627, alpha = 628, result = 626
+In thread 0, cmd = C, key = 594, alpha = 557, result = 593
+In thread 3, cmd = D, key = 731, alpha = 804, result = 730
+In thread 2, cmd = D, key = 757, alpha = 778, result = 756
+In thread 1, cmd = C, key = 584, alpha = 567, result = 583
+In thread 3, cmd = D, key = 201, alpha = 310, result = 200
+In thread 0, cmd = D, key = 111, alpha = 400, result = 110
+In thread 1, cmd = A, key = 694, alpha = 689, result = 693
+In thread 0, cmd = D, key = 903, alpha = 632, result = 902
+In thread 2, cmd = C, key = 820, alpha = 843, result = 819
+In thread 1, cmd = C, key = 304, alpha = 335, result = 303
+In thread 0, cmd = C, key = 657, alpha = 750, result = 656
+In thread 3, cmd = D, key = 26, alpha = 485, result = 25
+In thread 0, cmd = A, key = 463, alpha = 456, result = 462
+In thread 2, cmd = A, key = 941, alpha = 938, result = 940
+In thread 1, cmd = C, key = 198, alpha = 185, result = 197
+In thread 0, cmd = B, key = 705, alpha = 734, result = 704
+In thread 3, cmd = C, key = 856, alpha = 807, result = 855
+In thread 2, cmd = D, key = 643, alpha = 892, result = 642
+In thread 0, cmd = B, key = 113, alpha = 110, result = 112
+In thread 3, cmd = B, key = 525, alpha = 530, result = 524
+In thread 2, cmd = D, key = 5, alpha = 506, result = 4
+In thread 1, cmd = B, key = 535, alpha = 520, result = 534
+In thread 0, cmd = A, key = 825, alpha = 830, result = 824
+In thread 2, cmd = C, key = 741, alpha = 666, result = 740
+In thread 3, cmd = D, key = 554, alpha = 981, result = 553
+In thread 3, cmd = B, key = 355, alpha = 380, result = 354
+In thread 1, cmd = C, key = 923, alpha = 996, result = 922
+In thread 0, cmd = D, key = 669, alpha = 866, result = 668
+In thread 3, cmd = A, key = 946, alpha = 949, result = 945
+In thread 1, cmd = A, key = 881, alpha = 886, result = 880
+In thread 2, cmd = C, key = 707, alpha = 700, result = 706
+In thread 2, cmd = A, key = 306, alpha = 309, result = 305
+In thread 1, cmd = C, key = 408, alpha = 487, result = 407
+In thread 3, cmd = C, key = 706, alpha = 701, result = 705
+In thread 0, cmd = D, key = 823, alpha = 712, result = 822
+In thread 1, cmd = D, key = 515, alpha = 1020, result = 490
+In thread 2, cmd = D, key = 190, alpha = 321, result = 189
+In thread 3, cmd = D, key = 464, alpha = 47, result = 463
+
+-----------------------
+Resources requested:
+nodes=1:ppn=28:gpus=1
+mem=4gb
+-----------------------
+Resources used:
+cput=00:00:52
+walltime=00:00:12
+mem=0.070GB
+vmem=0.895GB
+-----------------------
+Resource units charged (estimate):
+0.009 RUs
+-----------------------

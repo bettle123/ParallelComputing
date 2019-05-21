@@ -1,0 +1,54 @@
+/opt/osc-cuda/bin/nvcc
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2016 NVIDIA Corporation
+Built on Sun_Sep__4_22:14:01_CDT_2016
+Cuda compilation tools, release 8.0, V8.0.44
+Wed Nov 21 14:59:26 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 396.37                 Driver Version: 396.37                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P100-PCIE...  On   | 00000000:04:00.0 Off |                    0 |
+| N/A   29C    P0    27W / 250W |     11MiB / 16280MiB |      0%   E. Process |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+Initialize the queue successfully.
+Main(): Start producer() and consumer() functions.
+Q:0	A	0	7
+Q:1	B	2	29
+Q:2	C	4	123
+Q:3	D	8	503
+Q:4	A	16	23
+Q:5	B	32	63
+Q:6	C	64	63
+Q:7	D	100	411
+Q:8	A	200	207
+Q:9	B	256	287
+Q:10	C	512	639
+Q:11	D	1000	535
+The producer runtime = 137.790000 seconds
+The consumer runtime = 137.570000 seconds
+The total user time = 275.360000 seconds
+
+-----------------------
+Resources requested:
+nodes=1:gpus=1
+mem=4gb
+-----------------------
+Resources used:
+cput=00:04:37
+walltime=00:04:40
+mem=0.007GB
+vmem=18.073GB
+-----------------------
+Resource units charged (estimate):
+0.007 RUs
+-----------------------

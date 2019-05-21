@@ -1,0 +1,70 @@
+/opt/osc-cuda/bin/nvcc
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2016 NVIDIA Corporation
+Built on Sun_Sep__4_22:14:01_CDT_2016
+Cuda compilation tools, release 8.0, V8.0.44
+Wed Nov 21 17:58:38 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 396.37                 Driver Version: 396.37                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P100-PCIE...  On   | 00000000:04:00.0 Off |                    0 |
+| N/A   32C    P0    28W / 250W |     10MiB / 16280MiB |      0%   E. Process |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+Initialize the queue successfully.
+Main(): Start producer() and consumer() functions.
+cmd A.
+Q: A	0
+Q: A	16
+Q: A	200
+cmd B.
+Q: B	2
+Q: B	32
+Q: B	256
+cmd C.
+Q: C	4
+Q: C	64
+Q: C	512
+cmd D.
+Q: D	8
+Q: D	100
+Q: D	1000
+Q:0	A	0	0
+Q:1	A	16	16
+Q:2	A	200	200
+Q:0	B	2	2
+Q:1	B	32	32
+Q:2	B	256	256
+Q:0	C	4	4
+Q:1	C	64	64
+Q:2	C	512	512
+Q:0	D	8	8
+Q:1	D	100	100
+Q:2	D	1000	1000
+The producer runtime = 0.190000 seconds
+The consumer runtime = 0.000000 seconds
+The total user time = 0.190000 seconds
+
+-----------------------
+Resources requested:
+nodes=1:gpus=1
+mem=4gb
+-----------------------
+Resources used:
+cput=00:00:02
+walltime=00:00:06
+mem=0.000GB
+vmem=0.000GB
+-----------------------
+Resource units charged (estimate):
+0.000 RUs
+-----------------------

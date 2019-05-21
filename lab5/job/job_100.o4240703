@@ -1,0 +1,115 @@
+/opt/osc-cuda/bin/nvcc
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2016 NVIDIA Corporation
+Built on Sun_Sep__4_22:14:01_CDT_2016
+Cuda compilation tools, release 8.0, V8.0.44
+Mon Dec  3 15:39:15 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 396.37                 Driver Version: 396.37                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P100-PCIE...  On   | 00000000:04:00.0 Off |                    0 |
+| N/A   30C    P0    30W / 250W |     10MiB / 16280MiB |      0%   E. Process |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+Completed task: 0, cmd = A, key = 426, alpha = 429, result = 425
+Completed task: 1, cmd = C, key = 417, alpha = 478, result = 416
+Completed task: 2, cmd = D, key = 504, alpha = 7, result = 503
+Completed task: 3, cmd = D, key = 508, alpha = 3, result = 507
+Completed task: 4, cmd = C, key = 288, alpha = 351, result = 287
+Completed task: 5, cmd = C, key = 511, alpha = 384, result = 510
+Completed task: 6, cmd = C, key = 850, alpha = 813, result = 849
+Completed task: 7, cmd = C, key = 819, alpha = 844, result = 818
+Completed task: 8, cmd = C, key = 273, alpha = 366, result = 272
+Completed task: 9, cmd = C, key = 528, alpha = 623, result = 527
+Completed task: 10, cmd = D, key = 842, alpha = 693, result = 841
+Completed task: 11, cmd = A, key = 118, alpha = 113, result = 117
+Completed task: 12, cmd = A, key = 358, alpha = 353, result = 357
+Completed task: 13, cmd = C, key = 522, alpha = 629, result = 521
+Completed task: 14, cmd = B, key = 105, alpha = 118, result = 104
+Completed task: 15, cmd = B, key = 372, alpha = 363, result = 371
+Completed task: 16, cmd = A, key = 657, alpha = 662, result = 656
+Completed task: 17, cmd = D, key = 756, alpha = 779, result = 755
+Completed task: 18, cmd = B, key = 648, alpha = 663, result = 647
+Completed task: 19, cmd = B, key = 662, alpha = 649, result = 661
+Completed task: 20, cmd = B, key = 617, alpha = 630, result = 616
+Completed task: 21, cmd = C, key = 914, alpha = 1005, result = 121
+Completed task: 22, cmd = D, key = 906, alpha = 629, result = 905
+Completed task: 23, cmd = A, key = 825, alpha = 830, result = 824
+Completed task: 24, cmd = C, key = 209, alpha = 174, result = 208
+Completed task: 25, cmd = C, key = 779, alpha = 884, result = 778
+Completed task: 26, cmd = D, key = 419, alpha = 92, result = 418
+Completed task: 27, cmd = B, key = 628, alpha = 619, result = 627
+Completed task: 28, cmd = D, key = 478, alpha = 33, result = 477
+Completed task: 29, cmd = A, key = 937, alpha = 942, result = 936
+Completed task: 30, cmd = A, key = 3, alpha = 4, result = 2
+Completed task: 31, cmd = A, key = 799, alpha = 792, result = 798
+Completed task: 32, cmd = B, key = 558, alpha = 561, result = 557
+Completed task: 33, cmd = A, key = 938, alpha = 941, result = 937
+Completed task: 34, cmd = D, key = 184, alpha = 327, result = 183
+Completed task: 35, cmd = A, key = 627, alpha = 628, result = 626
+Completed task: 36, cmd = C, key = 594, alpha = 557, result = 593
+Completed task: 37, cmd = D, key = 731, alpha = 804, result = 730
+Completed task: 38, cmd = D, key = 757, alpha = 778, result = 756
+Completed task: 39, cmd = C, key = 584, alpha = 567, result = 583
+Completed task: 40, cmd = D, key = 111, alpha = 400, result = 110
+Completed task: 41, cmd = D, key = 201, alpha = 310, result = 200
+Completed task: 42, cmd = A, key = 694, alpha = 689, result = 693
+Completed task: 43, cmd = D, key = 903, alpha = 632, result = 902
+Completed task: 44, cmd = C, key = 820, alpha = 843, result = 819
+Completed task: 45, cmd = C, key = 304, alpha = 335, result = 303
+Completed task: 46, cmd = C, key = 657, alpha = 750, result = 656
+Completed task: 47, cmd = D, key = 26, alpha = 485, result = 25
+Completed task: 48, cmd = A, key = 941, alpha = 938, result = 940
+Completed task: 49, cmd = A, key = 463, alpha = 456, result = 462
+Completed task: 50, cmd = C, key = 198, alpha = 185, result = 197
+Completed task: 51, cmd = B, key = 705, alpha = 734, result = 704
+Completed task: 52, cmd = C, key = 856, alpha = 807, result = 855
+Completed task: 53, cmd = D, key = 643, alpha = 892, result = 642
+Completed task: 54, cmd = B, key = 113, alpha = 110, result = 112
+Completed task: 55, cmd = B, key = 525, alpha = 530, result = 524
+Completed task: 56, cmd = D, key = 5, alpha = 506, result = 4
+Completed task: 57, cmd = B, key = 535, alpha = 520, result = 534
+Completed task: 58, cmd = A, key = 825, alpha = 830, result = 824
+Completed task: 59, cmd = C, key = 741, alpha = 666, result = 740
+Completed task: 60, cmd = D, key = 554, alpha = 981, result = 553
+Completed task: 61, cmd = B, key = 355, alpha = 380, result = 354
+Completed task: 62, cmd = C, key = 923, alpha = 996, result = 922
+Completed task: 63, cmd = D, key = 669, alpha = 866, result = 668
+Completed task: 64, cmd = A, key = 946, alpha = 949, result = 945
+Completed task: 65, cmd = A, key = 881, alpha = 886, result = 880
+Completed task: 66, cmd = C, key = 707, alpha = 700, result = 706
+Completed task: 67, cmd = A, key = 306, alpha = 309, result = 305
+Completed task: 68, cmd = C, key = 408, alpha = 487, result = 407
+Completed task: 69, cmd = C, key = 706, alpha = 701, result = 705
+Completed task: 70, cmd = D, key = 823, alpha = 712, result = 822
+Completed task: 71, cmd = D, key = 515, alpha = 1020, result = 490
+Completed task: 72, cmd = D, key = 190, alpha = 321, result = 189
+Completed task: 73, cmd = D, key = 464, alpha = 47, result = 463
+The producer runtime = 12.180000 seconds
+The consumer runtime = 11.980000 seconds
+The transmission time = 0.360000 seconds
+The total runtime = 24.520000 seconds
+
+-----------------------
+Resources requested:
+nodes=1:ppn=28:gpus=1
+mem=4gb
+-----------------------
+Resources used:
+cput=00:00:53
+walltime=00:00:14
+mem=0.003GB
+vmem=0.180GB
+-----------------------
+Resource units charged (estimate):
+0.010 RUs
+-----------------------

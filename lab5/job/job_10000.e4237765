@@ -1,0 +1,11 @@
+[proxy:0:0@o0769.ten.osc.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:959): process reading stdin too slowly; can't keep up
+[proxy:0:0@o0769.ten.osc.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:0@o0769.ten.osc.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+[mpiexec@o0769.ten.osc.edu] control_cb (pm/pmiserv/pmiserv_cb.c:208): assert (!closed) failed
+[mpiexec@o0769.ten.osc.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[mpiexec@o0769.ten.osc.edu] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:198): error waiting for event
+[mpiexec@o0769.ten.osc.edu] main (ui/mpich/mpiexec.c:340): process manager error waiting for completion
+
+real	0m0.102s
+user	0m0.007s
+sys	0m0.012s

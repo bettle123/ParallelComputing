@@ -1,0 +1,9 @@
+[mpiexec@o0729.ten.osc.edu] HYDT_bscd_pbs_wait_for_completion (tools/bootstrap/external/pbs_wait.c:67): tm_poll(obit_event) failed with TM error 17002
+[mpiexec@o0729.ten.osc.edu] HYDT_bsci_wait_for_completion (tools/bootstrap/src/bsci_wait.c:23): launcher returned error waiting for completion
+[proxy:0:0@o0729.ten.osc.edu] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:911): assert (!closed) failed
+[proxy:0:0@o0729.ten.osc.edu] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:0@o0729.ten.osc.edu] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+
+real	1m24.991s
+user	0m0.013s
+sys	0m0.058s

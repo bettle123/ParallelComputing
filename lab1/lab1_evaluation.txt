@@ -1,0 +1,12 @@
+What I learn from 5441 lab 1.
+1. I am a good TA. 
+2. I should learn standard input output in C. 
+    Be serious for the lab assignment.
+    Be careful for submitting them.
+3. I should be responsible for my project.
+4. I should fix the problem quickly.
+5. I should keep looking information on piazza.
+6. I should response the email from TA in an hour.
+7. I should only submit ".c" files.
+
+Do not blame for others, thank for them because they spend extra time on me.

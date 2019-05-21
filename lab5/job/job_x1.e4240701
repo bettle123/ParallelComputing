@@ -1,0 +1,9 @@
+[proxy:0:0@o0700.ten.osc.edu] HYDU_create_process (utils/launch/launch.c:75): execvp error on file ./lab5_mpi (Permission denied)
+[proxy:0:0@o0700.ten.osc.edu] HYDU_create_process (utils/launch/launch.c:75): execvp error on file ./lab5_mpi (Permission denied)
+[proxy:0:0@o0700.ten.osc.edu] HYDU_create_process (utils/launch/launch.c:75): execvp error on file ./lab5_mpi (Permission denied)
+[proxy:0:0@o0700.ten.osc.edu] HYDU_create_process (utils/launch/launch.c:75): execvp error on file ./lab5_mpi (Permission denied)
+[proxy:0:0@o0700.ten.osc.edu] HYDU_create_process (utils/launch/launch.c:75): execvp error on file ./lab5_mpi (Permission denied)
+
+real	0m0.172s
+user	0m0.005s
+sys	0m0.014s

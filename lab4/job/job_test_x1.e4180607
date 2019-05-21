@@ -1,0 +1,7 @@
+1116_main.cu(162): error: a __device__ function call cannot be configured
+
+1116_main.cu(162): error: a value of type "void" cannot be assigned to an entity of type "int *"
+
+1116_main.cu(156): warning: variable "dev_cmd" was declared but never referenced
+
+2 errors detected in the compilation of "/tmp/pbstmp.4180607/tmpxft_0000a322_00000000-8_1116_main.cpp1.ii".

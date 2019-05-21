@@ -1,0 +1,5 @@
+/var/spool/torque/mom_priv/jobs/4088846.owens-batch.ten.osc.edu.SC: line 26: 124724 Killed                  ./lab3_omp 32 < PC_data_x1
+
+real	0m0.005s
+user	0m0.000s
+sys	0m0.001s

@@ -1,0 +1,20 @@
+1031_main.c(143): warning #266: function "usleep" declared implicitly
+  	    usleep (100000);
+  	    ^
+
+1031_main.c(212): warning #266: function "usleep" declared implicitly
+          usleep(200000);
+          ^
+
+1031_main.c(244): warning #167: argument of type "pthread_t={unsigned long} *" is incompatible with parameter of type "pthread_t={unsigned long}"
+      pthread_join(&pro, NULL);
+                   ^
+
+1031_main.c(245): warning #167: argument of type "pthread_t={unsigned long} *" is incompatible with parameter of type "pthread_t={unsigned long}"
+      pthread_join(&con, NULL);
+                   ^
+
+
+real	0m49.753s
+user	0m28.556s
+sys	0m21.106s

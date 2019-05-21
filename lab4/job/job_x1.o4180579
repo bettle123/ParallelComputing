@@ -1,0 +1,79 @@
+/opt/osc-cuda/bin/nvcc
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2016 NVIDIA Corporation
+Built on Sun_Sep__4_22:14:01_CDT_2016
+Cuda compilation tools, release 8.0, V8.0.44
+Tue Nov 20 19:35:26 2018       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 396.37                 Driver Version: 396.37                    |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla P100-PCIE...  On   | 00000000:04:00.0 Off |                    0 |
+| N/A   23C    P0    28W / 250W |     10MiB / 16280MiB |      0%   E. Process |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+Initialize the queue successfully.
+Main(): Start producer() and consumer() functions.
+cmd = A
+cmd = A
+Q:0	A	7	0
+cmd = B
+cmd = B
+Q:1	B	29	2
+cmd = C
+cmd = C
+Q:2	C	123	4
+cmd = D
+cmd = D
+Q:3	D	503	8
+cmd = A
+cmd = A
+Q:4	A	23	16
+cmd = B
+cmd = B
+Q:0	B	63	32
+cmd = C
+cmd = C
+Q:1	C	63	64
+cmd = D
+cmd = D
+Q:2	D	411	100
+cmd = A
+cmd = A
+Q:3	A	207	200
+cmd = B
+cmd = B
+Q:4	B	287	256
+cmd = C
+cmd = C
+Q:0	C	639	512
+cmd = D
+cmd = D
+Q:1	D	535	1000
+cmd = A
+The producer runtime = 623.640000 seconds
+The consumer runtime = 586.170000 seconds
+The total user time = 1209.810000 seconds
+
+-----------------------
+Resources requested:
+nodes=1:gpus=1
+mem=4gb
+-----------------------
+Resources used:
+cput=00:20:11
+walltime=00:20:14
+mem=0.011GB
+vmem=18.076GB
+-----------------------
+Resource units charged (estimate):
+0.033 RUs
+-----------------------

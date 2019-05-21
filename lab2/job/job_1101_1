@@ -1,0 +1,11 @@
+#PBS -l walltime=00:10:00
+#PBS -l nodes=2:ppn=1:gpus=1,mem=4GB -A PAS0027
+export PATH=$PATH:/opt/osc-cuda/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/osc-cuda/lib64:~/cudnn/lib64
+which nvcc
+nvcc --version
+nvidia-smi
+cd 5441/lab2/
+
+icc -o test1 1031_main.c transform.o -pthread
+time ./test1 < PC_data_t00100

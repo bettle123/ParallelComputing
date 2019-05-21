@@ -1,0 +1,9 @@
+1202_main.c(48): warning #810: conversion from "void *" to "int" may lose significant bits
+          exit(NULL);
+               ^
+
+/var/spool/torque/mom_priv/jobs/4237758.owens-batch.ten.osc.edu.SC: line 26: PC_data_t5000: No such file or directory
+
+real	0m0.003s
+user	0m0.001s
+sys	0m0.000s
